@@ -49,7 +49,7 @@ public class TwoDimHistogram {
 		}
 		printHistogram(histo);
 	}
-	
+	  
 	//다른 데서 모르는 histo 값 넘겨줌
 	public static void printHistogram(char[][] histo) {
 		for(int i = histo.length-1; i >= 0; i--) {  // i 0값 돌아가니까 =
