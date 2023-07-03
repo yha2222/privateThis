@@ -1,6 +1,5 @@
 package ddit.chap05.sec12;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class TwoDimHistogram {
@@ -43,7 +42,7 @@ public class TwoDimHistogram {
 	public static void insertChar(int rowCount, int[] res) {
 		char[][] histo = new char[rowCount][6];     //열(세로)는 고정
 		for(int j = 0; j < histo[0].length; j++) {  //j<6해도 됨 => 고정된 열
-			for(int i = 0; i < res[j]; i++) {		//행 -밖:반드시 행이어야 하진 X
+			for(int i = 0; i < res[j]; i++) {		//행 -밖 : 반드시 행이어야 하진 X
 				histo[i][j] = '*';
 			}
 		}

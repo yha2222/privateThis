@@ -2,7 +2,7 @@ package ddit.chap05.sec05;
 
 public class SelectionSort {
 	//기준부터 나머지 데이터 전부 비교
-	//개선된 bubblesort처럼 중간에 멈출 수 없음 
+	//개선된 bubblesort처럼 중간에 멈출 수 없음  
 	int[] source = {27, 15, 92, 63, 57, 79, 80, 21};
 	
 	public int[] selectionSort() {

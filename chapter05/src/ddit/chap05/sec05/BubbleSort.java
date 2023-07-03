@@ -15,7 +15,7 @@ public class BubbleSort {
 			
 			//자리교환했는지 여부 확인 =>없으면 정렬 순서대로 됐다는 거 => sort 완성
 			for(int j = 0; j < source.length-1-i; j++) {  //!!!
-				if(source[j] > source[j + 1]) {    
+				if(source[j] > source[j + 1]) {
 					int temp = source[j];
 					source[j] = source[j + 1];
 					source[j + 1] = temp;

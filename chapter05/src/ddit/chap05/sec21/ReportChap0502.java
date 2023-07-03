@@ -19,6 +19,6 @@ public class ReportChap0502 {
 	    		System.out.println(coinUnit[i] + "원동전 개수: " + count);
 	    		System.out.println("남은 돈: "+money);
 	}
-	}
 
+}
 }
